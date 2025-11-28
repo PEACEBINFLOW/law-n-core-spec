@@ -1,8 +1,0 @@
-```markdown
-# Open Questions
-
-A living list of questions we haven’t nailed down yet.
-
-- How does LSIP interact with existing SIM/eSIM identities?
-- How do we migrate incrementally from BGP/OSPF to FBRP?
-- What minimum performance targets should be “non-negotiable” for Law-N adoption?
