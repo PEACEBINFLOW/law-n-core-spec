@@ -1,0 +1,17 @@
+# FBRP — Frequency-Based Routing Protocol (Draft)
+
+**Status:** Draft  
+**Version:** 0.1.0  
+**Author:** Peace Thabiwa  
+**Last Updated:** 2025-11-25
+
+FBRP defines how Law-N routes based on **frequency and patterns**, not just hops.
+
+- Input: LSIP IDs + pattern constraints (latency, reliability, energy, etc.)
+- Output: a route composed of towers, satellites, and links that satisfy those patterns.
+
+Future versions of this doc will define:
+
+- the route description format
+- negotiation steps between Law-N nodes
+- how N-LLMs can suggest or modify routes
