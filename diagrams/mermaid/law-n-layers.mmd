@@ -1,0 +1,10 @@
+flowchart TD
+  App[Applications] --> CLSI[CLSI Cloud Layer]
+  CLSI --> LawN[Law-N Nodes]
+  LawN --> Signals[Signals / Towers / Satellites]
+
+  subgraph Legacy[CLFI Stack]
+    HTTP --> TCP --> IP
+  end
+
+  App --> Legacy
